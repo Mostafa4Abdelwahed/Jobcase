@@ -20,10 +20,13 @@ const addJob = ({ isOpen, onOpen, onClose }) => {
     const submitHandler = async () => {
         setAddJobLoading(true);
         try {
-            dispatch(addNewJob(user, job));
-            dispatch(fetchJobs(1, user));
-            dispatch(fetchJobsCount(user));
-        } finally {
+            await dispatch(addNewJob(user, job));
+            await dispatch(fetchJobs(1, user));
+            await dispatch(fetchJobsCount(user));    
+            onClose();
+        } catch (error) {
+            console.log(error);
+        } finally{
             setAddJobLoading(false);
         }
     }
