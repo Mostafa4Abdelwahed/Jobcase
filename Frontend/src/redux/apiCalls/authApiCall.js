@@ -12,7 +12,6 @@ export function ProfileUser(user) {
                 }
             });
             dispatch(authActions.profile(data.data));
-            // console.log(data.data.found_email);
         } catch (error) {
             toast.error(error.response.data.message)
         }
