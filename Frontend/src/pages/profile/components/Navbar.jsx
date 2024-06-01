@@ -68,7 +68,7 @@ const Sidebar = () => {
                 <AddJob isOpen={isOpen} onClose={onClose} onOpen={onOpen} />
             </Navbar>
 
-            <div className="fixed flex md:hidden items-center justify-center gap-8 p-5 left-0 right-0 bottom-0 bg-zinc-900 text-white shadow-lg border-t-2">
+            <div className="fixed z-50 flex md:hidden items-center justify-center gap-8 p-5 left-0 right-0 bottom-0 bg-zinc-900 text-white shadow-lg border-t-2">
                 <Link className="flex items-center transition-all gap-1 hover:-translate-y-1" to="/">
                     <TbHomeStats />
                     Stats
