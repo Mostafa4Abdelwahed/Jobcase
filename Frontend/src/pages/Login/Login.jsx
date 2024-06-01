@@ -28,7 +28,7 @@ const Login = () => {
     return (
         <div className="flex items-center justify-center bg-gray-50 dark:bg-zinc-800 min-h-screen w-full">
             <div className="flex flex-col">
-                <Card className="max-w-full w-[450px] h-[400px]">
+                <Card className="md:w-[450px] md:h-[400px]">
                     <CardBody className="overflow-hidden">
                         <Tabs
                             fullWidth
