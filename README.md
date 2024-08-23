@@ -1,5 +1,10 @@
 # 🧑‍💼 Jobcase
+This is a dynamic MERN stack app designed to Tracking job applications.
 
+# Image From App
+<img src="https://e.top4top.io/p_3157brggn1.png" />
+
+# Mern Stack
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
